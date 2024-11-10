@@ -1,0 +1,471 @@
+body{
+  font-family:"inika";
+}
+
+p {
+  font-size: 15px;
+}
+
+
+#nav-pc{
+  font-size:14px;
+  padding-top: space-between;
+}
+#nav-pc > a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+#nav-pc > a:link {
+  color: #0d0d0d;
+}
+#nav-pc > a:visited {
+  color: #0d0d0d;
+}
+#nav-pc > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+#nav-pc > a:active {
+  color: #0d0d0d;
+}
+/* #personflower {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.person-1 {
+  position: absolute;
+  width:150px;
+}
+.flower-1 {
+  position: absolute;
+  opacity: 0.1;
+} */
+
+header {
+  /* background-image: url("images/flower-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top; */
+  height: 100vh;
+  position: relative;
+}
+
+.header_bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: opacity(0.5);
+  top: 0;
+  left: 0;
+}
+
+.header_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: relative;
+}
+
+.header__inner h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header__inner .nav-pc a {
+  font-size: 16px;
+}
+
+#personflower {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: left;
+  height:fit-content;
+}
+
+#personflower .person-1 {
+  width: 25vw;
+  height: auto;
+}
+
+#personflower .person-1 img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 160px;
+}
+
+#personflower h2 {
+  /* font-size: 48px; */
+  font-size: 4.5vw;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #FFFFFC;
+  opacity: 0.7;
+  margin-bottom: 125px;
+  position: relative;
+  left: -40px;
+  top: 50px;
+}
+
+#personflower p {
+  font-size: 2vw;
+  opacity: 0.9;
+  margin-left: 50px;
+  line-height: 1.6;
+}
+/*料金表の部分*/
+.service{
+  margin: 0 auto;
+  background-image: url("images/flower-2.jpg");
+  background-repeat: no-repeat;
+  padding:50px;
+  background-size: cover;
+  background-position: center;
+}
+.service h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+#makeperiod {
+  background-color: #FFFFFC;
+  filter: opacity(0.7);
+}
+.make {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.feeperiod {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  display: flex;
+}
+.period {
+  margin-left: 500px;
+}
+.period-1w {
+  padding-top:20px;
+}
+.period-1m {
+  padding-top:50px;
+}
+.lpmake {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+.hpmake {
+ margin-bottom: 50px;
+}
+.works-0 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+/*worksの部分*/
+.works{
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+.works h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.works .inner {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.works .inner a {
+  width: auto;
+  height: auto;
+  display: block;
+  text-decoration: none;
+}
+.works .inner a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*aboutの部分*/
+.about {
+  background-image: url("images/about.jpg");
+  background-repeat: no-repeat;
+  padding:50px;
+  background-position: center;
+  background-size: cover;
+}
+.about__inner h2{
+  width: 90%;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.about_bg{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: opacity(0.7);
+  top: 0;
+  left: 0;
+}
+.about_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  position: relative;
+}
+#aboutperson-2 {
+  display: flex;
+}
+#aboutperson-2 .person-2 { 
+  height: auto;
+}
+#aboutperson-2 .person-2 img {
+  height: auto;
+  border-radius: 50%;
+    width: 290px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid #999;
+    padding: 3px;
+}
+#aboutperson-2 a {
+  /* font-size: 48px; */
+  font-size: 1.8vw;
+  font-weight: bold;
+  padding: 15px;
+  background-color: #FFFFFC;
+  opacity: 0.7;
+  margin-bottom: 120px;
+  position: relative;
+  left: 210px;
+  top: 50px;
+  margin: 10px;
+}
+#aboutperson-2 p {
+  background-color: #fffffC;
+  opacity:0.7;
+  font-size: 2vw;
+  margin-left: 300px;
+  line-height: 1.6;
+}
+/*プラモデルの部分*/
+.linkpra {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.linkpra h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.linkpra .inner {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+
+.linkpra .inner a {
+  width: calc((100% - 6vw) / 4);
+  height: calc((100vw - 6vw) / 4);
+  display: block;
+  text-decoration: none;
+}
+
+.linkpra .inner a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*ラクロス部分*/
+
+.lax {
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("images/lax-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:50px;
+  background-position: center;
+}
+.lax h2 {
+  font-size: 2vw;
+  font-weight: bold;
+  margin-left: 90px;
+}
+.lax_bg{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: opacity(0.6);
+  top: 0;
+  left: 0;
+}
+.lax_bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lax-04 img {
+  width: 30vw;
+  height: auto;
+  margin-bottom: 50px;
+}
+.record {
+  width:150vw;
+  font-size: 2vw;
+  margin-left: 40px;
+  line-height: 2.5;
+  background-color: #FFFFFC;
+  opacity:0.7;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+#lax_3 {
+  display: flex;
+}
+.lax-04 {
+  margin:30px;
+  padding-top: 100px;
+}
+/*問合せ*/
+.contact {
+  width: 100%;
+  margin: 0 auto;
+}
+.contact h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.form {
+  text-align: center;
+}
+.contact-heading {
+  font-size: 2vw;
+  margin-left: 60px;
+  line-height: 3.0;
+}
+input {
+ appearance: radio;
+}
+/* ハンバーガーメニューのスタイル */
+@media only screen and (max-width: 768px){
+  #nav-sp{
+    display: none;
+  }
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+/* ハンバーガーメニューのアイコンのスタイル */
+.hamburger-line {
+  width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 4px;
+    transition: background-color 0.3s;
+}
+body {
+  min-width: 400px;
+  margin: 0;
+}
+
+/* PC用ナビゲーション非表示 */
+#nav-pc {
+  display: none;
+}
+
+/* ハンバーガーメニュー */
+#menu-sp {
+  display: block;
+  float: right;
+  padding: 0;
+}
+#nav-sp {
+  background-color: #1093d5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: none;
+  z-index: 100;
+}
+.hamburger-menu{
+  display: block;
+}
+
+}
+
+#menu-sp{
+  display: none;
+}
+ /* ×ボタン */
+ #close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+
+/* ナビゲーションのリンクの装飾設定 */
+#menu-sp > a {
+  display: block;
+}
+#menu-sp > a:link {
+  color: #ffffff;
+}
+#menu-sp > a:visited {
+  color: #ffffff;
+}
+#menu-sp > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+#menu-sp > a:active {
+  color: #ffffff;
+}
+#menu-sp > .menu {
+  text-decoration: none;
+  display: block;
+  margin: 0 20px 0 20px;
+  height: 44px;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
